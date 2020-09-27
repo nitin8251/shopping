@@ -1,0 +1,108 @@
+.shopping-menu {
+    display: flex;
+    padding: 1rem 2rem;
+}
+
+.menu-items { 
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin-right: 1rem;
+}
+
+.menu-items button { 
+    background-color: white;
+    padding: 8px 16px;
+    border-color: #80808030;
+    width: 200px;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+.menu-items button.active { 
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: white;
+    font-weight: 500;
+    outline: none;
+}
+
+.shopping-items { 
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.shopping-each-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 0 30%;
+    margin: 5px;
+    height: 180px;
+    border-color: #f0efeb;
+    transition: all 0.2s;
+    border-radius: 12px;
+    background-color: #f0efeb73;
+    padding: 8px;
+    max-width: 240px;
+}
+
+.shopping-each-item:hover {
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+}
+
+.shopping-each-item .description {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.shopping-each-item .product-image {
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.shopping-each-item .price {
+    margin-top: 8px;
+    color: #dc2f02;
+    font-weight: 600;
+}
+
+.add-to-cart {
+    background: #FFD814;
+    border-color: #FCD200;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px 16px;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+.header-background{
+   
+    background-color: darkcyan;
+    white-space: normal;
+    height: 3rem;
+}
+.header-background .header-image
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 0 30%;
+    margin: 5px;
+    height: 180px;
+    border-color: #f0efeb;
+    transition: all 0.2s;
+    border-radius: 12px;
+    background-color: #f0efeb73;
+    padding: 8px;
+    max-width: 240px;
+}
